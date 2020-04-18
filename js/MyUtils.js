@@ -14,6 +14,7 @@ function submitLogin() {
 }
 
 function logout() {
+  //
   sessionStorage.setItem('email', '');
   sessionStorage.setItem('password', '');
   window.location.replace('login.html');
