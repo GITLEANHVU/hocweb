@@ -14,7 +14,7 @@ function submitLogin() {
   // console.log('email = ' + sessionStorage.getItem('email'));
   // window.location.replace('index.html');
 
-  $.post('http://codelaghien.club/web/login.asp', {
+  $.get('http://codelaghien.club/web/login.asp', {
     username: email,
     password: password,
   })
